@@ -1,11 +1,10 @@
 ﻿using System.Runtime.CompilerServices;
+int year;
+Console.WriteLine("Enter a year to check if it is a leap year.");
+year = Convert.ToInt32(Console.ReadLine());
 
-
-static void IfYearIsLeap()
+void IfYearIsLeap()
 {
-    int year;
-    Console.WriteLine("Enter a year to check if it is a leap year.");
-    year = Convert.ToInt32(Console.ReadLine());
 
     if (year % 4 == 0 && year % 100 != 0)
     {
